@@ -1,5 +1,5 @@
        identification division.
-       program-id. FizzBuzz.
+       program-id. FizzBuzz3.
        author. Andreas Suhre.
 
       *=================================================================
