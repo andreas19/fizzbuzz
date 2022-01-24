@@ -1,4 +1,4 @@
-program FizzBuzz1;
+program FizzBuzz2;
 const
 	limit = 100;
 var
