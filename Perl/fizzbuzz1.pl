@@ -10,9 +10,7 @@ for ($i = 1; $i <= $LIMIT; $i++) {
 	} else {
 		print $i;
 	}
-	if ($i < $LIMIT) {
-		print ", ";
-	}
+	print ", " if ($i < $LIMIT);
 }
 
 print "\n";

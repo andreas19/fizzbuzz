@@ -5,9 +5,7 @@ $LIMIT = 100;
 
 for ($i = 1; $i <= $LIMIT; $i++) {
 	print (@a[$i % 15] || $i);
-	if ($i < $LIMIT) {
-		print ", ";
-	}
+	print ", " if ($i < $LIMIT);
 }
 
 print "\n"

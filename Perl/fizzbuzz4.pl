@@ -5,9 +5,7 @@ for ($i = 1; $i <= $LIMIT; $i++) {
 	$s .= 'Fizz' unless $i % 3;
 	$s .= 'Buzz' unless $i % 5;
 	print($s || $i);
-	if ($i < $LIMIT) {
-		print ", ";
-	}
+	print ", " if ($i < $LIMIT);
 }
 
 print "\n";
