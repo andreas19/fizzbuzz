@@ -10,7 +10,7 @@ for i in 1..LIMIT
   else
     print i
   end
-  print ", " if i < LIMIT
+  print ', ' if i < LIMIT
 end
 
 puts
