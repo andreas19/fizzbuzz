@@ -5,7 +5,7 @@ a = ['FizzBuzz', '', '', 'Fizz', '', 'Buzz', 'Fizz',
 
 (1..LIMIT).each do |i|
   s = a[i % 15]
-  print s.length.zero? ? i : s
+  print s.empty? ? i : s
   print ", " if i < LIMIT
 end
 
