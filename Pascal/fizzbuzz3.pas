@@ -5,7 +5,7 @@ type
 	tA = array[0..14] of string;
 var
 	i: integer;
-	s: string;
+	s: string[8];
 	a: tA = ('FizzBuzz', '', '', 'Fizz', '', 'Buzz', 'Fizz',
 	         '', '', 'Fizz', 'Buzz', '', 'Fizz', '', '');
 begin

@@ -3,7 +3,7 @@ const
 	limit = 100;
 var
 	i: integer;
-	s: string;
+	s: string[8];
 begin
 	for i := 1 to limit do
 	begin
