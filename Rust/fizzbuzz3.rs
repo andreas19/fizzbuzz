@@ -1,7 +1,8 @@
 const LIMIT: i32 = 100;
 
 fn main() {
-    println!("{}",
+    println!(
+        "{}",
         (1..=LIMIT)
             .map(|i| {
                 match i % 15 {
