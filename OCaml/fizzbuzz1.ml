@@ -1,5 +1,5 @@
 let limit = 100 in
-for i = 1 to 100 do
+for i = 1 to limit do
   if i mod 15 = 0 then
     print_string "FizzBuzz"
   else if i mod 3 = 0 then

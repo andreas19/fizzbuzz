@@ -1,5 +1,5 @@
 let limit = 100 in
-for i = 1 to 100 do
+for i = 1 to limit do
   (match i mod 15 with
   | 0 -> print_string "FizzBuzz"
   | 3 | 6 | 9 | 12 -> print_string "Fizz"
