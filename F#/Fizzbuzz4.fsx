@@ -1,10 +1,10 @@
 let limit = 100
 
 let getString i =
-    match i % 15 with
-    | 0 -> "FizzBuzz"
-    | 3 | 6 | 9 | 12 -> "Fizz"
-    | 5 | 10 -> "Buzz"
+    match i % 3 = 0, i % 5 = 0 with
+    | true, true -> "FizzBuzz"
+    | true, false -> "Fizz"
+    | false, true -> "Buzz"
     | _ -> string i
 
 printfn "%s" (String.concat ", " (List.map getString [1..limit]))
