@@ -10,8 +10,7 @@ begin
             when 0 => "FizzBuzz",
             when 3 | 6 | 9 | 12 => "Fizz",
             when 5 | 10 => "Buzz",
-            when others => Trim(Integer'Image(I), Left)
-        );
+            when others => Trim(Integer'Image(I), Left));
         Put(if I = Limit then "" else ", ");
     end loop;
 end FizzBuzz3;
