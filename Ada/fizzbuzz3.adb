@@ -13,4 +13,5 @@ begin
             when others => Trim(Integer'Image(I), Left));
         Put(if I = Limit then "" else ", ");
     end loop;
+    New_Line;
 end FizzBuzz3;
