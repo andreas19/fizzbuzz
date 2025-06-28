@@ -16,3 +16,5 @@ or first compiling and then running them with *erl*
 > erlc <file name>
 > erl -noshell -s <module name> main -s init stop
 ```
+
+The BASIC programs work with [QB64](https://qb64.com/).
