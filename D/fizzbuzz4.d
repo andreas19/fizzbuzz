@@ -25,5 +25,5 @@ void main()
             arr[i] = to!string(k);
         }
     }
-    writeln(join(arr[0..$], ", "));
+    writeln(join(arr[], ", "));
 }
